@@ -1,0 +1,55 @@
+:root {
+  --whiteColor: #ffffff;
+  --gray: #e2e5e4;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;
+}
+
+section {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.score-container {
+  display: flex;
+  flex-direction: column;
+}
+
+div.score {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 10px;
+  justify-content: start;
+}
+
+span.score-ball {
+  font-weight: bold;
+  margin: 5px 10px 5px 5px;
+}
+
+p.score-commentary {
+  margin: 5px;
+}
+
+hr {
+  position: absolute;
+  width: 90%;
+  margin: -30px;
+  left: 50px;
+  height: 10px;
+  background-color: var(--gray);
+}
+
+.endOver {
+  margin-top: 30px;
+}
